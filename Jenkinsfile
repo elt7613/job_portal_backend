@@ -25,7 +25,7 @@ pipeline {
 
     stage('Install requirements') {
       steps {
-        sh '.venv/bin/pip install -r requirements.txt'
+        sh '.venv/bin/pip install -r requirement.txt'
       }
     }
 
